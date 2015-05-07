@@ -2,5 +2,5 @@ function getUsername(){
    var username =  $.session.getUsername();
    return username;
 }
-var result = "Hello GitHub World from User " + getUsername();
+var result = "Hello sunny GitHub World from User " + getUsername();
 $.response.setBody(result);
